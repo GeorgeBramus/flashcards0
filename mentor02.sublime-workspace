@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ha",
+				"handleLeftSwipe"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"click",
+				"clickFirst"
+			],
+			[
+				"po",
+				"prop_checked"
+			],
+			[
+				"clic",
+				"clickCountOther"
+			],
+			[
+				"checked",
+				"checkedCheckbox"
+			],
+			[
+				"prop",
+				"prop_checked"
+			],
+			[
+				"state",
+				"stateMaterial"
+			],
+			[
+				"cl",
+				"clickMaterial"
+			],
+			[
+				"value2",
+				"values2"
+			],
+			[
+				"Na",
+				"isNaN"
+			],
+			[
+				"check",
+				"checkbox_click_color"
+			],
+			[
+				"produc",
+				"products_attr"
+			],
+			[
+				"pr",
+				"products_attr"
+			],
+			[
+				"key",
+				"key_plus"
+			],
+			[
+				"value",
+				"value_plus"
+			],
+			[
+				"product",
+				"product_id"
+			],
+			[
+				"order",
+				"orders_product"
+			],
+			[
+				"new",
+				"new_cart_data"
+			],
+			[
+				"dealer",
+				"dealer_form"
+			],
+			[
+				"length",
+				"lengthData"
+			],
+			[
+				"disc",
+				"discount_val"
+			],
+			[
+				"stck",
+				"sticker_action"
+			],
+			[
+				"stic",
+				"sticker_action"
+			],
+			[
+				"sticke",
+				"sticker_promo"
+			],
+			[
+				"master",
+				"master_name"
+			],
+			[
+				"menu_p",
+				"menu_panel_display"
+			],
+			[
+				"mini",
+				"mini_page"
+			],
+			[
+				"div_",
+				"div_pause"
+			],
+			[
+				"active",
+				"active_element"
+			],
+			[
+				"h_",
+				"h_nav"
+			],
+			[
+				"wra",
+				"wrapper_cite"
+			],
+			[
+				"block",
+				"block_footer"
+			],
+			[
+				"h_block",
+				"h_block_footer"
+			],
+			[
+				"blok",
+				"block_header"
+			],
+			[
+				"h_b",
+				"h_block_content"
+			],
+			[
+				"serv",
+				"services_cover"
+			],
+			[
+				"user",
+				"user_first_name"
+			],
+			[
+				"user_",
+				"user_first_name"
+			],
+			[
+				"pati",
+				"patients"
+			],
+			[
+				"pa",
+				"patient"
+			],
+			[
+				"w",
+				"w_logo"
+			],
+			[
+				"logo",
+				"logo_company"
+			],
+			[
+				"lo",
+				"logo_simple"
+			],
+			[
+				"a",
+				"app/"
+			],
+			[
+				"da",
+				"data_href"
+			],
+			[
+				"window",
+				"window_height"
+			],
+			[
+				"bloc",
+				"block_header"
+			],
+			[
+				"h",
+				"h_window"
+			],
+			[
+				"pare",
+				"parent_padding"
+			],
+			[
+				"paren",
+				"parent_pading"
+			],
+			[
+				"parent",
+				"parent_width"
+			],
+			[
+				"parent_",
+				"parent_width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 2078,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/george/www-rails/mentor02/Gemfile",
+		"/home/george/www/landing.template/scss/app.scss",
+		"/home/george/www/landing.template/scss/_settings.scss",
+		"/home/george/www/landing.template/src/js/coffee/js/proba.js",
+		"/home/george/www/landing.template/src/js/coffee/proba.coffee",
+		"/home/george/www/landing.template/src/sass/010_main.sass",
+		"/home/george/www/landing.template/src/sass/proba.sass",
+		"/home/george/www/landing.template/src/slim/index.slim",
+		"/home/george/www/landing.template/index.html",
+		"/etc/postgresql/9.5/main/pg_hba.conf",
+		"/home/george/www/landing.template/bower_components/foundation-sites/scss/foundation.scss",
+		"/home/george/www/landing.template/bower_components/foundation-sites/scss/_global.scss",
+		"/home/george/www/landing.template/src/sass/inc/material_design_colors.sass",
+		"/home/george/www/landing.template/css/app.css",
+		"/home/george/www/landing.template/app/css/main.min.css",
+		"/home/george/www/landing.template/src/css/proba.css",
+		"/home/george/www/landing.template/src/js/coffee/proba.cofee",
+		"/home/george/www-rails/greatesites3/app/assets/stylesheets/foundation-icons/preview.html",
+		"/home/george/www/landing.template/gulpfile.js",
+		"/home/george/www/landing.template/bower_components/foundation-sites/bower.json",
+		"/home/george/www/landing.template/bower_components/foundation-sites/docslink.sh",
+		"/home/george/www/landing.template/bower_components/foundation-sites/LICENSE",
+		"/home/george/www/landing.template/bower_components/foundation-sites/README.md",
+		"/home/george/www/landing.template/foundation-icons/foundation-icons.css",
+		"/home/george/www/landing.template/bower_components/foundation-sites/scss/settings/_settings.scss",
+		"/home/george/www/landing.template/bower_components/foundation-sites/scss/components/_off-canvas.scss",
+		"/home/george/www/toys.template/gulpfile.js",
+		"/home/george/www/landing.template/package.json",
+		"/home/george/www/landing.template/bower_components/foundation-sites/webpack.config.js",
+		"/home/george/www/landing.template/bower.json",
+		"/home/george/www/landing.template/config.yml",
+		"/home/george/www/landing.template/gulpfile.babel.js",
+		"/home/george/www/landing.template/src/pages/index.html",
+		"/home/george/www/landing.template/readme.md",
+		"/home/george/www/landing.template/src/styleguide/template.html",
+		"/home/george/www/landing2.template/projectname/index.html",
+		"/home/george/www/landing2.template/projectname/gulpfile.js",
+		"/home/george/www/landing2.template/projectname/package.json",
+		"/home/george/www/landing2.template/projectname/bower.json",
+		"/home/george/www/landing.template/bower_components/foundation/js/foundation.js",
+		"/home/george/www/landing.template/bower_components/foundation/scss/foundation.scss",
+		"/home/george/www/landing.template/bower_components/foundation/css/foundation.css",
+		"/home/george/www/landing.template/bower_components/foundation/js/foundation/foundation.js",
+		"/home/george/www/landing.template/index.php",
+		"/etc/hosts",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/home/george/.bash_aliases",
+		"/home/george/.bashrc",
+		"/home/george/.cache/.fr-vchbtj/data-img.js",
+		"/home/george/www-rails/demo.css",
+		"/media/george/Media/passwords/Пиво",
+		"/home/george/Blender/blend4web_ce/projects/test_project/test_project.js",
+		"/home/george/Blender/blend4web_ce/projects/test_project/test_project.html",
+		"/home/george/Blender/blend4web_ce/projects/test_project/test_project.css",
+		"/home/george/www/pamira.local/Tovar.xml",
+		"/tmp/fz3temp-1/cfg.php",
+		"/home/george/www/sxd/readme_ru.txt",
+		"/tmp/fz3temp-1/ht.access",
+		"/tmp/fz3temp-1/config.inc.php",
+		"/tmp/fz3temp-1/readme.txt",
+		"/tmp/fz3temp-1/.htaccess",
+		"/home/george/www/rostgruz_new/ht.access",
+		"/tmp/fz3temp-1/phpinfo.php",
+		"/home/george/www/host5603_rostgruz-2017-08-07.sql",
+		"/home/george/www-rails/greatesites3/app/assets/javascripts/node_modules/jsonld/README.md",
+		"/home/george/www-rails/greatesites02/app/assets/stylesheets/main.sass",
+		"/home/george/www/toys.template/src/js/coffee/030_header.coffee",
+		"/home/george/Загрузки/ruby-2.4.1.tar.gz",
+		"/home/george/RubyMine-2017.1.5/build.txt",
+		"/home/george/RubyMine-2017.1.5/Install-Linux-tar.txt",
+		"/home/george/www-rails/zoj01/Gemfile",
+		"/home/george/RubyMine-2017.1.5/bin/rubymine.sh",
+		"/home/george/Blender/blend4web_ce/projects/test_create_project/assets/test_create_project.json",
+		"/home/george/Blender/blend4web_ce/projects/test_create_project/assets/test_create_project.bin",
+		"/home/george/Blender Установка/blender-2.78c-linux-glibc219-x86_64/readme.html",
+		"/home/george/Blender/blend4web_ce/README.rst",
+		"/home/george/www/untitled.html",
+		"/home/george/www/pavillon_barcelone_v1.2.html",
+		"/tmp/fz3temp-1/SharesController.php",
+		"/tmp/fz3temp-1/dashboard.php",
+		"/tmp/fz3temp-1/dealer_cart.GeorgeBramus02.js",
+		"/tmp/fz3temp-1/DealerController.php",
+		"/tmp/fz3temp-1/footer.blade.php",
+		"/tmp/fz3temp-1/footer.blade 2.php",
+		"/tmp/fz3temp-1/layout.blade.php",
+		"/tmp/fz3temp-1/product_page.blade.php",
+		"/home/george/Загрузки/Primer_fayla_dlya_importa_v_Dzen-mani.csv",
+		"/tmp/fz3temp-1/style.css",
+		"/tmp/fz3temp-1/footer_menu_template.blade.php",
+		"/tmp/fz3temp-1/54198.xml",
+		"/home/george/www/pamira.local/docs/passwords/дополнительные пароли.doc",
+		"/tmp/fz3temp-1/style 2.css",
+		"/tmp/fz3temp-1/layout.blade 2.php",
+		"/tmp/fz3temp-1/ProductController.php",
+		"/tmp/fz3temp-1/Order_product.php",
+		"/tmp/fz3temp-1/Dealer.php",
+		"/tmp/fz3temp-1/Product.php",
+		"/tmp/fz3temp-1/MainPageController.php",
+		"/tmp/fz3temp-1/Orders.php",
+		"/tmp/fz3temp-1/OrdersController.php",
+		"/tmp/fz3temp-1/laravel.log",
+		"/tmp/fz3temp-1/error_log",
+		"/home/george/www/xn--80agaq5ackdcels.arteyes.ru-Jan-2017",
+		"/home/george/www/xn--80agaq5ackdcels.arteyes.ru-Feb-2017",
+		"/tmp/fz3temp-1/xn--80agaq5ackdcels.arteyes.ru-Jan-2017.gz",
+		"/tmp/fz3temp-1/slider.blade.php",
+		"/tmp/fz3temp-1/layout.js",
+		"/home/george/www-rails/zoj01/app/assets/stylesheets/_settings.scss",
+		"/home/george/www-rails/zoj01/config/database.yml",
+		"/tmp/fz3temp-1/filter.blade.php",
+		"/tmp/fz3temp-1/id_rsa 2.pub",
+		"/tmp/fz3temp-1/id_rsa.pub",
+		"/tmp/fz3temp-2/style.css",
+		"/tmp/fz3temp-2/layout.blade.php",
+		"/tmp/fz3temp-2/new.js",
+		"/tmp/fz3temp-2/gulpfile.js",
+		"/home/george/www/pamira.local/foundation/index.html",
+		"/tmp/fz3temp-2/foundation.css",
+		"/tmp/fz3temp-2/popup.less",
+		"/tmp/fz3temp-2/robots.txt",
+		"/tmp/fz3temp-2/web.config",
+		"/tmp/fz3temp-2/app.css",
+		"/tmp/fz3temp-1/product_template.blade.php",
+		"/tmp/fz3temp-1/filter.js",
+		"/tmp/fz3temp-1/CatalogController.php.bak",
+		"/tmp/fz3temp-1/Catalog.php",
+		"/tmp/fz3temp-1/DatabaseSeeder.php",
+		"/tmp/fz3temp-1/2016_07_01_154241_update_product_table.php"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mousemove",
+			"light_",
+			"width",
+			"all",
+			"accord",
+			"float grid",
+			"Search",
+			"Страница",
+			"подшипники для сель",
+			"подшип",
+			"-",
+			"app.i",
+			"rev",
+			"Geo",
+			"mail",
+			"width:88",
+			"margin:88",
+			"slider-center",
+			"top:-58",
+			"5px",
+			"cur_",
+			"Product",
+			"menu",
+			" ",
+			"1024",
+			"tel_wrap",
+			"HEAD",
+			"sticker",
+			"filter",
+			"sticker_promo",
+			"appendProduct",
+			"markup",
+			"Rasprodaja=\"1",
+			"#C50F0F",
+			"sale",
+			"getCostWithMargin",
+			"markup",
+			"KolPost=\"да",
+			"Оптовая цена",
+			"getDisableFilters",
+			"get_bp_by_array",
+			"disableFiltersByHaracteristic",
+			"filter",
+			"getCountAjaxData",
+			"sendAjaxCountData",
+			"setDataForWindow",
+			"disable_filters",
+			"glavniypokuchnyam.rf",
+			"sendAjaxCountData",
+			"clearDi",
+			"clearDisabled",
+			"setChangedCheckbox",
+			"changeFilter",
+			"sendAjaxCountData",
+			"getProductHaracteristicChecked",
+			"get",
+			"get.",
+			"deleteFilterFromLine",
+			"set_disable_checkbox",
+			"if",
+			"caterer",
+			"pdf",
+			"HEAD",
+			"view(\"admin.",
+			"update",
+			"xml_product_to_base",
+			"xml",
+			"disable_filters",
+			"checkbox_changed",
+			"getChangedCheckbox",
+			"getDisabledBy",
+			"needDisabled",
+			"disable_filters",
+			"console.log",
+			"checkbox_changed",
+			"setChangedCheckbox",
+			"changeFilter",
+			"disable_filters",
+			"302",
+			"pdf",
+			"disable_filters",
+			"mater",
+			"checkbox_changed",
+			"disable_filters",
+			"== \"\"color\"",
+			"George",
+			"pdf",
+			"kol",
+			"Rasprodaja",
+			"leader",
+			"sale",
+			"leade",
+			"leader",
+			"update",
+			"to_base",
+			"xml",
+			"set_disable_checkbox",
+			"select_checkbox",
+			"get(\"",
+			"function filter",
+			"filter",
+			"material",
+			"getAccessBrands",
+			"brand",
+			"title",
+			"haracteristic",
+			"disabled",
+			"disabled=\"",
+			"disabled=\"dis",
+			"disabled",
+			"get(",
+			"material",
+			"Brand",
+			"brand",
+			"returnEditView",
+			"all_discount",
+			"}} _",
+			"}}_",
+			"glob",
+			"toJSON",
+			"script",
+			"getRowsData",
+			"10",
+			"toJSON",
+			";\n",
+			"getRowsData",
+			"cart.cart",
+			"recalcRows"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&shy;",
+			"xn--80aeb0afclfcik4c0a2f5c.xn--p1ai",
+			"/var/www/karp/data/www/grandmeat.bramus.ru",
+			"",
+			"_block_footer",
+			"/home/george/www",
+			"fill:#000000",
+			"stroke:#000000;stroke-opacity:1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								343,
+								343
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 312.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "mentor02.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/www/landing.template/src/js/coffee/proba.coffee"
+			],
+			[
+				"sass",
+				"~/www/ts2.local/src/sass/020_general.sass"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/www/password-and-other.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
