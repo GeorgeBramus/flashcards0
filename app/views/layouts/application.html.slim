@@ -4,7 +4,7 @@ html lang="en"
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
 
-    title == content_for?(:title) ? yield(:title) : "Untitled"
+    title == content_for?(:title) ? yield(:title) : "Флэшкарточкер"
 
     = stylesheet_link_tag "application"
     = javascript_include_tag "vendor/modernizr"
@@ -12,6 +12,17 @@ html lang="en"
 
   body
 
-    == yield
+    section#container
+      header.clearfix
+        h1 Флэшкарточкер
+        ul.navigation-links
+          li
+            a href="#" Все карточки
+          li
+            a href="#" Добавить карточку
+
+    section
+      p style="font-size: 22px"
+        == yield
 
     = javascript_include_tag "application"
