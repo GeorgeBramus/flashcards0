@@ -12,17 +12,21 @@ html lang="en"
 
   body
 
-    section#container
-      header.clearfix
-        h1 Флэшкарточкер
-        ul.navigation-links
-          li
-            a href="#" Все карточки
-          li
-            a href="#" Добавить карточку
+    .grid-container
+      .grid-x.grid-padding-x
+        section.small-12.medium-8.large-6#container
+          header.clearfix
+            h1 Флэшкарточкер
+            ul.navigation-links
+              li
+                a href="#" Все карточки
+              li
+                a href="#" Добавить карточку
 
-    section
-      p style="font-size: 22px"
-        == yield
+    .grid-container
+      .grid-x.grid-padding-x
+        section.small-12.medium-8.large-6
+          p style="font-size: 22px"
+            == yield
 
     = javascript_include_tag "application"
