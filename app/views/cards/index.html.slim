@@ -1,0 +1,18 @@
+h2 Все карточки
+- unless @cards.empty?
+  - @cards.each do |card|
+    .card
+      .card-flash.card-date
+        .left = card.review_date.strftime("%d/%m/%Y")
+        .right
+          | ID#
+          = card.id
+      .card-flash.card-original-text
+        span Original text
+        = card.original_text
+      .card-flash.card-translated-text.card-last
+        span Translated text
+        = card.translated_text
+
+- else
+  .alert-box.alert data-alert="" карточки не найдены
