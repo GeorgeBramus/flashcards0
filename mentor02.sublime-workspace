@@ -224,10 +224,13 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"contents": "h2 Все карточки\n- unless @cards.empty?\n  - @cards.each do |card|\n    .card\n      .card-flash.card-date\n        .left = card.review_date.strftime(\"%d/%m/%Y\")\n        .right\n          | ID#\n          = card.id\n      .card-flash.card-original-text\n        span Original text\n        = card.original_text\n      .card-flash.card-translated-text.card-last\n        span Translated text\n        = card.translated_text\n\n- else\n  .alert-box.alert data-alert=\"\" карточки не найдены\n",
+			"file": "app/views/cards/index.html.slim",
+			"file_size": 499,
+			"file_write_time": 131480533120647690,
 			"settings":
 			{
-				"buffer_size": 2078,
+				"buffer_size": 471,
 				"line_ending": "Unix"
 			}
 		}
@@ -314,9 +317,46 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/george/www-rails/mentor02",
+		"/home/george/www-rails/mentor02/app",
+		"/home/george/www-rails/mentor02/app/assets",
+		"/home/george/www-rails/mentor02/app/assets/javascripts",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets",
+		"/home/george/www-rails/mentor02/app/controllers",
+		"/home/george/www-rails/mentor02/app/helpers",
+		"/home/george/www-rails/mentor02/app/views",
+		"/home/george/www-rails/mentor02/app/views/layouts",
+		"/home/george/www-rails/mentor02/db"
+	],
 	"file_history":
 	[
+		"/home/george/Рабочий стол/primer.rb",
+		"/home/george/www-rails/mentor02/config/routes.rb",
+		"/home/george/www-rails/mentor02/app/controllers/cards_controller.rb",
+		"/home/george/www-rails/mentor02/app/views/layouts/application.html.slim",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/cards.sass",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/main.sass",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/material_design_colors.sass",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/cards.scss",
+		"/home/george/www-rails/mentor02/app/views/cards/show.html.slim",
+		"/home/george/www-rails/mentor02/app/controllers/home_controller.rb",
+		"/home/george/www-rails/mentor02/.gitignore",
+		"/home/george/www-rails/mentor02/app/views/home/index.html.slim",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/general.sass",
+		"/home/george/www-rails/mentor02/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/home/george/.cache/.fr-vQ6aon/index.html",
+		"/home/george/.cache/.fr-r0mV0f/js/app.js",
+		"/home/george/.cache/.fr-KfMhuT/css/app.css",
+		"/home/george/.cache/.fr-SIeGiz/css/foundation.css",
+		"/home/george/.cache/.fr-cxlvxS/css/foundation.min.css",
+		"/home/george/www-rails/mentor02/db/migrate/20170824083909_create_cards.rb",
+		"/home/george/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/george/www-rails/task01 flashcardr_static/application.css",
+		"/home/george/www-rails/task01 flashcardr_static/index.html",
 		"/home/george/www-rails/mentor02/Gemfile",
+		"/home/george/www-rails/mentor02/config/database.yml",
 		"/home/george/www/landing.template/scss/app.scss",
 		"/home/george/www/landing.template/scss/_settings.scss",
 		"/home/george/www/landing.template/src/js/coffee/js/proba.js",
@@ -419,31 +459,7 @@
 		"/tmp/fz3temp-1/laravel.log",
 		"/tmp/fz3temp-1/error_log",
 		"/home/george/www/xn--80agaq5ackdcels.arteyes.ru-Jan-2017",
-		"/home/george/www/xn--80agaq5ackdcels.arteyes.ru-Feb-2017",
-		"/tmp/fz3temp-1/xn--80agaq5ackdcels.arteyes.ru-Jan-2017.gz",
-		"/tmp/fz3temp-1/slider.blade.php",
-		"/tmp/fz3temp-1/layout.js",
-		"/home/george/www-rails/zoj01/app/assets/stylesheets/_settings.scss",
-		"/home/george/www-rails/zoj01/config/database.yml",
-		"/tmp/fz3temp-1/filter.blade.php",
-		"/tmp/fz3temp-1/id_rsa 2.pub",
-		"/tmp/fz3temp-1/id_rsa.pub",
-		"/tmp/fz3temp-2/style.css",
-		"/tmp/fz3temp-2/layout.blade.php",
-		"/tmp/fz3temp-2/new.js",
-		"/tmp/fz3temp-2/gulpfile.js",
-		"/home/george/www/pamira.local/foundation/index.html",
-		"/tmp/fz3temp-2/foundation.css",
-		"/tmp/fz3temp-2/popup.less",
-		"/tmp/fz3temp-2/robots.txt",
-		"/tmp/fz3temp-2/web.config",
-		"/tmp/fz3temp-2/app.css",
-		"/tmp/fz3temp-1/product_template.blade.php",
-		"/tmp/fz3temp-1/filter.js",
-		"/tmp/fz3temp-1/CatalogController.php.bak",
-		"/tmp/fz3temp-1/Catalog.php",
-		"/tmp/fz3temp-1/DatabaseSeeder.php",
-		"/tmp/fz3temp-1/2016_07_01_154241_update_product_table.php"
+		"/home/george/www/xn--80agaq5ackdcels.arteyes.ru-Feb-2017"
 	],
 	"find":
 	{
@@ -461,6 +477,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Grid",
+			"$grid-container",
+			"xy",
+			"conta",
+			"// $",
 			"mousemove",
 			"light_",
 			"width",
@@ -583,12 +604,7 @@
 			"toJSON",
 			"script",
 			"getRowsData",
-			"10",
-			"toJSON",
-			";\n",
-			"getRowsData",
-			"cart.cart",
-			"recalcRows"
+			"10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -619,27 +635,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "app/views/cards/index.html.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2078,
+						"buffer_size": 471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								343,
-								343
+								471,
+								471
 							]
 						],
 						"settings":
 						{
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -752,7 +766,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 190.0,
+	"side_bar_width": 317.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
