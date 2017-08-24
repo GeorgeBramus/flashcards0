@@ -12,22 +12,25 @@ html lang="en"
 
   body
 
-    .row
-      section.large-12.column
-        header
+    .grid-container
+      .grid-x.grid-padding-x
+        section.large-12.cell
+          header
 
-          .row
-            .large-6.columns.columns
-              h1 Флэшкарточкер
-            .large-6.columns.columns
-              ul.navigation-links
-                li
-                  a href="#" Все карточки
-                li
-                  a href="#" Добавить карточку
+            .grid-container.full
+              .grid-x.grid-padding-x
+                .large-6.cell
+                  h1 Флэшкарточкер
+                .large-6.cell
+                  ul.navigation-links
+                    li
+                      a href="#" Все карточки
+                    li
+                      a href="#" Добавить карточку
 
-    .row
-      section.small-12.medium-8.large-6.columns
-        == yield
+    .grid-container
+      .grid-x.grid-padding-x
+        section.small-12.medium-8.large-6.cell
+          == yield
 
     = javascript_include_tag "application"
