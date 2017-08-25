@@ -3,8 +3,13 @@ h2 Все карточки
   - @cards.each do |card|
     .card
       .card-flash.card-date
-        .left = card.review_date.strftime("%d/%m/%Y")
-        .right
+        .left
+          | [ ID#
+          = card.id
+          | &nbsp;]
+          | &nbsp;&nbsp;
+          = card.review_date.strftime("%d/%m/%Y")
+        / .right
           | ID#
           = card.id
       .card-flash.card-original-text
