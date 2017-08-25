@@ -1,0 +1,38 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+    title == content_for?(:title) ? yield(:title) : "Флэшкарточкер"
+
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "vendor/modernizr"
+    = csrf_meta_tag
+
+  body
+
+    .grid-container
+      .grid-x.grid-padding-x
+        section.large-12.cell
+          header
+
+            .grid-container.full
+              .grid-x.grid-padding-x
+                .large-6.cell
+                  h1 Флэшкарточкер
+                .large-6.cell
+                  ul.navigation-links.menu
+                    li
+                      = link_to "Главная", root_path
+                    li
+                      = link_to "Все карточки", cards_path
+                    li
+                      a href="#" Добавить карточку
+
+    .grid-container
+      .grid-x.grid-padding-x
+        section.small-12.medium-8.large-6.cell
+          == yield
+
+    = javascript_include_tag "application"
