@@ -4,6 +4,7 @@ class CardsController < ApplicationController
   end
 
   def show
+    @card = Card.find(params[:id])
   end
 
   def new
@@ -13,8 +14,8 @@ class CardsController < ApplicationController
   def create
     record_card = Card.create(card_params)
     if record_card.errors.empty?
-      @rec = record_card
-      # redirect_to action: 'index'
+      # @rec = record_card
+      redirect_to action: 'index'
     else
       render 'new'
     end
@@ -27,6 +28,9 @@ class CardsController < ApplicationController
   end
 
   def destroy
+    @card = Card.find(params[:id])
+    @card.destroy
+    redirect_to action: 'index'
   end
 
   private

@@ -1,19 +1,20 @@
 h2 Все карточки
-.grid-x.grid-padding-x
+.grid-x.grid-margin-x
   - if @cards
     - @cards.each do |card|
       .card.cell.small-6.medium-4.large-3
         .card-flash.card-date
           .left
-            | [ ID#
-            = card.id
-            | &nbsp;]
-            | &nbsp;&nbsp;
-            = card.review_date.strftime("%d/%m/%Y")
+            = link_to(card) do
+              | [ ID#
+              = card.id
+              | &nbsp;]
+              | &nbsp;&nbsp;
+              = card.review_date.strftime("%d/%m/%Y")
           .right
-            a.link-edit href="#" title="редактировать"
+            = link_to edit_card_path(card), title: "редактировать"
               i.material-icons mode_edit
-            a.link-delete href="#" title="удалить"
+            = link_to card_path(card), method: :delete, title: "удалить"
               i.material-icons delete
 
         .card-flash.card-original-text
