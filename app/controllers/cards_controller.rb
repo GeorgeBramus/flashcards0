@@ -14,7 +14,7 @@ class CardsController < ApplicationController
     record_card = Card.create(card_params)
     if record_card.errors.empty?
       @rec = record_card
-      redirect_to action: 'index'
+      # redirect_to action: 'index'
     else
       render 'new'
     end

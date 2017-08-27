@@ -1,6 +1,6 @@
 class Card < ApplicationRecord
   validates :original_text, :translated_text, presence: true
-  validate :coincidence, on: :create
+  # validate :coincidence, on: :create
 
   # validate :expiration_date_cannot_be_in_the_past,
   #   :discount_cannot_be_greater_than_total_value
@@ -21,11 +21,9 @@ class Card < ApplicationRecord
   # with_options if: :coincidence? do |coincidence|
   #   coincidence.errors.add(:original_text, "The original text should be different from the translated text")
   # end
-  def coincidence
-    original_text = :original_text
-    translated_text = :translated_text
-    if original_text.to_s.downcase == @rec.to_s.downcase
-      errors.add(:original_text, "The original text should be different from the translated text")
-    end
-  end
+  # def coincidence
+  #   if original_text.downcase == translated_text.downcase
+  #     errors.add(:original_text, "The original text should be different from the translated text")
+  #   end
+  # end
 end
