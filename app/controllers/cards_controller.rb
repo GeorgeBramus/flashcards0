@@ -14,7 +14,6 @@ class CardsController < ApplicationController
   def create
     record_card = Card.create(card_params)
     if record_card.errors.empty?
-      # @rec = record_card
       redirect_to action: 'index'
     else
       render 'new'
@@ -22,9 +21,13 @@ class CardsController < ApplicationController
   end
 
   def edit
+    @card = Card.find(params[:id])
   end
 
   def update
+    @card = Card.find(params[:id])
+    @card.update_attributes(card_params)
+    redirect_to action: 'index'
   end
 
   def destroy
