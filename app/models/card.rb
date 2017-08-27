@@ -1,4 +1,5 @@
 class Card < ApplicationRecord
+  require "date"
   validates :original_text, :translated_text, presence: true
   # validate :coincidence, on: :create
 
@@ -26,4 +27,12 @@ class Card < ApplicationRecord
   #     errors.add(:original_text, "The original text should be different from the translated text")
   #   end
   # end
+
+  before_save :date_change, on: [ :create, :update ]
+
+  private
+    def date_change
+      self.review_date = Date.today + 3
+    end
 end
+
